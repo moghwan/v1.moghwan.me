@@ -1,32 +1,54 @@
 <template>
   <div id="app">
-    <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
-    </div>
-    <router-view/>
-  </div>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <nav class="navbar container" role="navigation" aria-label="main navigation">
+      <div class="navbar-brand">
+        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample" :class="{ 'is-active': showNav }" @click="showNav = !showNav">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+
+      <div id="navbarBasicExample" class="navbar-menu navbar-center is-hidden-desktop" :class="{ 'is-active': showNav }">
+        <router-link to="/" class="navbar-item">
+          Home
+        </router-link>
+        <router-link to="/about" class="navbar-item">
+          About
+        </router-link>
+     </div>
+   </nav>
+   
+   <div class="container">
+     <router-view />
+   </div>
+</div>
 </template>
 
-<style lang="scss">
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-}
+<script>
+  export default {
+    name: "App",
+    data() {
+      return{
+        showNav: false,
+      }
+    },
+  };
+</script>
 
-#nav {
-  padding: 30px;
-
-  a {
-    font-weight: bold;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
-      color: #42b983;
-    }
+<style type="text/css">
+  #app {
+    min-height: 100vh;
+    display: block;
+    position: relative;
   }
-}
+
+  .navbar-center {
+    justify-content: center;
+  }
+</style>
+
+<style lang="sass">
+@import "~bulma/bulma.sass"
 </style>
