@@ -4,6 +4,14 @@ import './registerServiceWorker'
 import router from './router'
 import VueSimpleMarkdown from 'vue-simple-markdown'
 import 'vue-simple-markdown/dist/vue-simple-markdown.css'
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
+import { faTelegram, faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons";
+
+library.add(faTelegram, faTwitter, faGithub);
+library.add(faUserSecret)
+Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.use(VueSimpleMarkdown)
 

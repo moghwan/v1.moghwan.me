@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b4600862-8bf0-434e-a4e2-1d79596bf42b/deploy-status)](https://app.netlify.com/sites/frosty-stonebraker-8507e1/deploys)
+
 # moghwan.github.io
 
 ## Project setup

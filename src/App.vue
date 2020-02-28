@@ -19,10 +19,34 @@
         </router-link>
      </div>
    </nav>
-   
-   <div class="container">
-     <router-view />
-   </div>
+    <div class="container">
+      <div class="columns is-mobile">
+        <div class="column is-three-fifths is-offset-one-fifth is-paddingless">
+          <router-view />
+        </div>
+      </div>
+    </div>
+    <hr>
+    <footer class="footer columns">
+      <div class="container columns column is-three-fifths is-offset-one-fifth is-paddingless has-text-grey">
+        <div class="column is-one-third">
+          <p>
+            Contact:
+            <br>
+            <a href="mailto:me@meruc.com">me@meruc.com</a>
+          </p>
+        </div>
+        <div class="column is-one-fifth">
+          <p>
+            <font-awesome-icon :icon="['fab', 'telegram']" class="icon alt icon-inline"/><a href="https://t.me/moghwan" target="_blank">moghwan</a>
+            <br>
+            <font-awesome-icon :icon="['fab', 'github']" class="icon alt icon-inline"/><a href="https://github.com/moghwan" target="_blank">moghwan</a>
+          </p>
+        </div>
+        <div class="column">
+          A place where you can find my work over the years, what I'm working on and more.</div>
+      </div>
+    </footer>
 </div>
 </template>
 
@@ -37,15 +61,28 @@
   };
 </script>
 
-<style type="text/css">
+<style lang="scss" scoped>
   #app {
     min-height: 100vh;
     display: block;
     position: relative;
+    padding-bottom: 90px;
   }
 
   .navbar-center {
     justify-content: center;
+  }
+
+  footer {
+    position: absolute;
+    background-color:transparent;
+    bottom: 0;
+    width: 100%;
+    padding: 2rem 1.5rem !important;
+  }
+
+  .icon-inline {
+    margin: 0 3px -6px 0;
   }
 </style>
 
