@@ -8,12 +8,14 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { faUserSecret } from '@fortawesome/free-solid-svg-icons'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faTelegram, faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons";
+import VuePageTransition from 'vue-page-transition'
 
 library.add(faTelegram, faTwitter, faGithub);
 library.add(faUserSecret)
 Vue.component('font-awesome-icon', FontAwesomeIcon)
 
 Vue.use(VueSimpleMarkdown)
+Vue.use(VuePageTransition)
 
 Vue.config.productionTip = false
 

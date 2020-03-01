@@ -22,7 +22,9 @@
     <div class="container">
       <div class="columns is-mobile">
         <div class="column is-three-fifths is-offset-one-fifth is-paddingless">
-          <router-view />
+          <vue-page-transition name="fade">
+            <router-view />
+          </vue-page-transition>
         </div>
       </div>
     </div>

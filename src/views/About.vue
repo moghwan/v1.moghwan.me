@@ -70,6 +70,27 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-16by9">
+              <img src="http://meruc.com/_src/img/proj/bouayadapp.jpg" alt="Placeholder image">
+            </figure>
+            <h3 class="title-top title is-4 has-text-weight-medium has-text-centered">
+              Bouayadapp
+            </h3>
+          </div>
+          <div class="card-content">
+            <div class="content">
+              An android app shows daily quotes with old moroccan proverbs, Satbeeh and more.
+              <a href="#">Ionic Framework 3</a> <a href="#">SQLite</a>
+            </div>
+          </div>
+          <footer class="card-footer">
+            <a href="http://play.google.com/store/apps/details?id=com.meruc.bouayadapp" target="_blank" class="card-footer-item">Download</a>
+          </footer>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card">
+          <div class="card-image">
+            <figure class="image is-16by9">
               <img src="http://meruc.com/_src/img/proj/pfe/3.jpg" alt="Placeholder image">
             </figure>
             <h3 class="title-top title is-4 has-text-weight-medium has-text-centered">
@@ -85,27 +106,6 @@
           </div>
           <footer class="card-footer">
             <a href="https://github.com/moghwan/EFPHT-project" target="_blank" class="card-footer-item">Get Source</a>
-          </footer>
-        </div>
-      </div>
-      <div class="column">
-        <div class="card">
-          <div class="card-image">
-            <figure class="image is-16by9">
-              <img src="http://meruc.com/_src/img/proj/bouayadapp.jpg" alt="Placeholder image">
-            </figure>
-            <h3 class="title-top title is-4 has-text-weight-medium has-text-centered">
-              Bouayadapp
-            </h3>
-          </div>
-          <div class="card-content">
-            <div class="content">
-              An android app shows daily quotes with old moroccan proverbs, Satbeeh and more.
-              <a href="#">Ionic Framework 3</a> <a href="#">SQLite</a>
-            </div>
-          </div>
-          <footer class="card-footer">
-            <a href="http://play.google.com/store/apps/details?id=com.meruc.bouayadapp" target="_blank" class="card-footer-item">Download</a>
           </footer>
         </div>
       </div>
