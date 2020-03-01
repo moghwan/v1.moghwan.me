@@ -105,7 +105,7 @@
             </div>
           </div>
           <footer class="card-footer">
-            <a href="y.google.com/store/apps/details?id=com.meruc.bouayadapp" target="_blank" class="card-footer-item">Download</a>
+            <a href="http://play.google.com/store/apps/details?id=com.meruc.bouayadapp" target="_blank" class="card-footer-item">Download</a>
           </footer>
         </div>
       </div>
