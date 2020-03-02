@@ -35,7 +35,7 @@
       <span class="tag">Jquery</span>
       <span class="tag">Gulp</span>
       <span class="tag">Composer</span>
-      <span class="tag">Oracle</span>
+      <span class="tag">OracleDB</span>
       <span class="tag">Cron jobs</span>
       <span class="tag">Apache2</span>
     </div>
@@ -94,7 +94,7 @@
               <img src="http://meruc.com/_src/img/proj/pfe/3.jpg" alt="Placeholder image">
             </figure>
             <h3 class="title-top title is-4 has-text-weight-medium has-text-centered">
-              Firebase
+              Charts
             </h3>
           </div>
           <div class="card-content">
@@ -120,16 +120,5 @@
   }
   .title-top {
     margin-top: 1.5rem
-  }
-
-  .bio {
-    padding: 0px 5px 2px;
-    border-radius: 2px;
-
-    .vue {background-color: #41B883; color: #34495E;}
-    .ionic {background-color: #6C6C6C; color: #F05340;}
-    .laravel {background-color: black; color: white;}
-    .wordpress {background-color: #00749C; color: white;}
-    .reactnative {background-color: #222; color: #61DBFB;}
   }
 </style>
