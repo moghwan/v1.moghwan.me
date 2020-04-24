@@ -20,13 +20,13 @@
     <div class="is-centered tags are-large">
       <span class="tag">Laravel</span>
       <span class="tag">Ionic Framework</span>
-      <span class="tag">SQLite/MySql</span>
+      <span class="tag">API Rest</span>
       <span class="tag">Vue</span>
       <span class="tag">Bootstrap</span>
     </div>
 
     <div class="is-centered tags are-medium">
-      <span class="tag">API Rest</span>
+      <span class="tag">SQLite/MySql</span>
       <span class="tag">React Native</span>
       <span class="tag">Bulma</span>
       <span class="tag">SCSS/SASS</span>
@@ -48,21 +48,22 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-16by9">
-              <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/i/7ad67f3f-54a6-4043-bd76-799f3475687a/d4yujyo-25d7bf5f-130d-4b5d-a1c1-a95baed55173.png" alt="Placeholder image">
+              <img src="@/assets/projects/coroma-19.png" alt="Placeholder image">
             </figure>
             <h3 class="title-top title is-4 has-text-weight-medium has-text-centered">
-              OEM Config Tool
+              Coro🇲🇦-19
             </h3>
           </div>
           <div class="card-content">
             <div class="content">
-              A simple Windows(XP to 10) desktop app, let changing hardware infossuch as processor's name and more.
+              Just another Unofficial Covid-19 Graph stats for Morocco. Sourced on
+              <a href="https://github.com/moghwan/coroma-19" target="_blank" >Github</a>
               <br>
-              <a href="#">.NET</a> <a href="#">DotNetBar</a>
+              <a href="#">#PWA</a> <a href="#">#VueJs</a> <a href="#">#Vuetify</a>
             </div>
           </div>
           <footer class="card-footer">
-            <a href="http://fav.me/d4yujyo" target="_blank" class="card-footer-item">Try It</a>
+            <a href="https://coroma-19.netlify.com/" target="_blank" class="card-footer-item">Visit</a>
           </footer>
         </div>
       </div>
@@ -70,7 +71,7 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-16by9">
-              <img src="http://meruc.com/_src/img/proj/bouayadapp.jpg" alt="Placeholder image">
+              <img src="@/assets/projects/bouayadapp.jpg" alt="Placeholder image">
             </figure>
             <h3 class="title-top title is-4 has-text-weight-medium has-text-centered">
               Bouayadapp
@@ -79,7 +80,7 @@
           <div class="card-content">
             <div class="content">
               An android app shows daily quotes with old moroccan proverbs, Satbeeh and more.
-              <a href="#">Ionic Framework 3</a> <a href="#">SQLite</a>
+              <a href="#">#Ionic_Framework</a> <a href="#">#SQLite</a>
             </div>
           </div>
           <footer class="card-footer">
@@ -91,7 +92,7 @@
         <div class="card">
           <div class="card-image">
             <figure class="image is-16by9">
-              <img src="http://meruc.com/_src/img/proj/pfe/3.jpg" alt="Placeholder image">
+              <img src="@/assets/projects/sf.jpg" alt="Placeholder image">
             </figure>
             <h3 class="title-top title is-4 has-text-weight-medium has-text-centered">
               Charts
@@ -101,7 +102,7 @@
             <div class="content">
               A web app that manage typed data to charts with offline mode and a centralized synchronization.
               <br>
-              <a href="#">Symfony</a> <a href="#">MaterializeCSS</a>
+              <a href="#">#Symfony</a> <a href="#">#MaterializeCSS</a>
             </div>
           </div>
           <footer class="card-footer">
