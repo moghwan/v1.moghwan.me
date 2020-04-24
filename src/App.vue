@@ -33,10 +33,10 @@
         <div class="columns">
           <div class="column is-3 is-offset-1">
             <p>
-              Contact:
+              Contact: <a href="mailto:me@meruc.com">me@meruc.com</a>
             </p>
             <p>
-              <a href="mailto:me@meruc.com">me@meruc.com</a>
+              Résumé: <a href="https://docs.google.com/document/d/18dX40Tr89pLiOzs2Ms532yzMrHBeSEQTIhOkEVPLDUs/edit?usp=sharing" target="_blank">View online</a>
             </p>
           </div>
           <div class="column is-3">
