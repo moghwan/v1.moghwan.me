@@ -31,6 +31,7 @@
       <span class="tag">Bulma</span>
       <span class="tag">SCSS/SASS</span>
       <span class="tag">WordPress</span>
+      <span class="tag">Vuex</span>
       <span class="tag">TypeScript</span>
       <span class="tag">Jquery</span>
       <span class="tag">Gulp</span>
