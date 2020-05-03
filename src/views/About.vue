@@ -64,7 +64,7 @@
             </div>
           </div>
           <footer class="card-footer">
-            <a href="https://coroma-19.netlify.com/" target="_blank" class="card-footer-item">Visit</a>
+            <a href="https://coroma-19.netlify.app/" target="_blank" class="card-footer-item">Visit</a>
           </footer>
         </div>
       </div>
