@@ -48,7 +48,7 @@
             </p>
           </div>
           <div class="column">
-            Made with VueJS & Deployed on Netlify.</div>          
+            Deployed on Vercel.</div>
         </div>
       </div>
     </footer>

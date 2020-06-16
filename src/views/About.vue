@@ -34,7 +34,7 @@
       <span class="tag">Vuex</span>
       <span class="tag">TypeScript</span>
       <span class="tag">Jquery</span>
-      <span class="tag">Gulp</span>
+      <span class="tag">Docker-compose</span>
       <span class="tag">Composer</span>
       <span class="tag">OracleDB</span>
       <span class="tag">Cron jobs</span>
@@ -64,7 +64,7 @@
             </div>
           </div>
           <footer class="card-footer">
-            <a href="https://coroma-19.netlify.app/" target="_blank" class="card-footer-item">Visit</a>
+            <a href="https://corona.moghwan.me/" target="_blank" class="card-footer-item">Visit</a>
           </footer>
         </div>
       </div>
@@ -81,7 +81,7 @@
           <div class="card-content">
             <div class="content">
               An android app shows daily quotes with old moroccan proverbs, Satbeeh and more.
-              <a href="#">#Ionic_Framework</a> <a href="#">#SQLite</a>
+              <a href="#">#IonicFramework</a> <a href="#">#SQLite</a>
             </div>
           </div>
           <footer class="card-footer">
