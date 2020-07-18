@@ -9,7 +9,7 @@
         I’m a web developer based in Rabat 🇲🇦.
       </p>
       <p class="subtitle has-text-centered">
-        Love working on Web technologies and looking for some opportunity to refine my knowledge.<br>
+        Love working on Web technologies and looking for an opportunity to refine my knowledge.<br>
       </p>
     </div>
     <br>
