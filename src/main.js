@@ -8,6 +8,9 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import { faTelegram, faTwitter, faGithub } from "@fortawesome/free-brands-svg-icons";
 import VuePageTransition from 'vue-page-transition'
 
+import axios from 'axios'
+Vue.prototype.$axios = axios
+
 library.add(faTelegram, faTwitter, faGithub);
 library.add(faUserSecret)
 Vue.component('font-awesome-icon', FontAwesomeIcon)

@@ -31,24 +31,23 @@
     <footer class="footer columns is-mobile">
       <div class="container column is-three-fifths is-offset-one-fifth is-paddingless has-text-grey">
         <div class="columns">
-          <div class="column is-3 is-offset-1">
+          <div class="column is-8 is-offset-1">
             <p>
-              Contact: <a href="mailto:me@meruc.com">me@meruc.com</a>
+              Contact:
+              <a href="mailto:chaoui.mar1@gmail.com">chaoui.mar1@gmail.com</a>
             </p>
             <p>
               Résumé: <a href="https://docs.google.com/document/d/18dX40Tr89pLiOzs2Ms532yzMrHBeSEQTIhOkEVPLDUs/edit?usp=sharing" target="_blank">View online</a>
             </p>
           </div>
-          <div class="column is-3">
-            <p>
-              <font-awesome-icon :icon="['fab', 'telegram']" class="icon alt icon-inline"/><a href="https://t.me/moghwan" target="_blank">moghwan</a>
-            </p>
+          <div class="column">
             <p>
               <font-awesome-icon :icon="['fab', 'github']" class="icon alt icon-inline"/><a href="https://github.com/moghwan" target="_blank">moghwan</a>
             </p>
+            <p>
+              <font-awesome-icon :icon="['fab', 'twitter']" class="icon alt icon-inline"/><a href="https://twitter.com/moghwan" target="_blank">moghwan</a>
+            </p>
           </div>
-          <div class="column">
-            Deployed on Vercel.</div>
         </div>
       </div>
     </footer>
