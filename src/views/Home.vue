@@ -7,11 +7,11 @@
                   <h1 class="title has-text-big has-text-weight-light">Mogh<span class="has-text-link">Wan</span></h1>
                 </router-link>
                 <router-link to="/about" >
-                    <h4 class="has-text-weight-medium is-inline-block has-text-link">About</h4>
+                    <h5 class="has-text-weight-medium is-inline-block has-text-grey">About</h5>
                 </router-link>
                 ·
                 <router-link to="/blog">
-                    <h4 class="has-text-weight-medium is-inline-block">Blog</h4>
+                    <h5 class="has-text-weight-medium is-inline-block has-text-grey">Blog</h5>
                 </router-link>
               </div>
           </div>

@@ -13,7 +13,7 @@
                 <div class="card-content">
                     <div class="media">
                         <div class="media-content">
-                            <p><a class="title is-4" :href="post.url">{{post.title}}</a></p>
+                            <p><a class="title is-4" target="_blank" :href="post.url">{{post.title}}</a></p>
                             <time>Published {{post.readable_publish_date}}</time> ·
                             <span class="subtitle is-6">{{post.public_reactions_count}} Reactions</span> ·
                             <span class="subtitle is-6">{{post.comments_count}} Comments</span>
