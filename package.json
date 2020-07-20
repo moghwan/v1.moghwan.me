@@ -15,7 +15,7 @@
     "axios": "^0.19.2",
     "bulma": "^0.9.0",
     "core-js": "^3.6.5",
-    "eslint-loader": "^2.1.2",
+    "eslint-loader": "^2.2.1",
     "register-service-worker": "^1.7.1",
     "vue": "^2.6.11",
     "vue-page-transition": "^0.2.2",
