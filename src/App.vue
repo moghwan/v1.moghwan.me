@@ -14,6 +14,9 @@
         <router-link to="/" class="navbar-item">
           Home
         </router-link>
+        <router-link to="/blog" class="navbar-item">
+          Blog
+        </router-link>
         <router-link to="/about" class="navbar-item">
           About
         </router-link>

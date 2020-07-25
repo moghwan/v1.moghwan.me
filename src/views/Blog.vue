@@ -3,11 +3,11 @@
         <h1 class="title is-2 has-text-weight-light has-text-centered title-top">
             Blog
         </h1>
-        <div class="columns posts">
-            <div v-for="post in posts" v-bind:key="post.id" class="card column is-12-desktop is-12-mobile">
+        <div class="columns is-multiline posts">
+            <div v-for="post in posts" v-bind:key="post.id" class="card column is-6 is-12-mobile">
                 <div class="card-image">
                     <figure class="image">
-                        <img src="https://res.cloudinary.com/practicaldev/image/fetch/s--iNyTaNgc--/c_imagga_scale%2Cf_auto%2Cfl_progressive%2Ch_420%2Cq_auto%2Cw_1000/https://dev-to-uploads.s3.amazonaws.com/i/4ofe46jk6w8mcmi0d60o.png" alt="Placeholder image">
+                        <img :src="post.cover_image" alt="Placeholder image">
                     </figure>
                 </div>
                 <div class="card-content">
