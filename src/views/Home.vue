@@ -4,7 +4,7 @@
         <div class="hero-body">
             <div class="container content has-text-centered has-text-grey-light">
                 <router-link to="/about">
-                  <h1 class="title has-text-big has-text-weight-light">Mogh<span class="has-text-link">Wan</span></h1>
+                  <h1 class="title has-text-big has-text-weight-light">Mogh<span class="has-text-link spacing">Wan</span></h1>
                 </router-link>
                 <router-link to="/about" >
                     <h5 class="has-text-weight-medium is-inline-block has-text-grey">About</h5>
@@ -30,5 +30,14 @@
     li {
       display: inline;
     }
+  }
+
+  .spacing{
+      padding-left: 5px;
+      transition: all .1s ease-in-out;
+  }
+
+  .spacing:hover {
+      padding-left:0px;
   }
 </style>

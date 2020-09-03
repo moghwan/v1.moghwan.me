@@ -37,19 +37,17 @@
           <div class="column is-8 is-offset-1">
             <p>
               Contact:
-              <a href="mailto:chaoui.mar1@gmail.com">chaoui.mar1@gmail.com</a>
-            </p>
-            <p>
-              Résumé: <a href="https://docs.google.com/document/d/18dX40Tr89pLiOzs2Ms532yzMrHBeSEQTIhOkEVPLDUs/edit?usp=sharing" target="_blank">View online</a>
+              <a href="mailto:chaoui.mar1@gmail.com">chaoui.mar1[@]gmail.com</a>
             </p>
           </div>
           <div class="column">
-            <p>
-              <font-awesome-icon :icon="['fab', 'github']" class="icon alt icon-inline"/><a href="https://github.com/moghwan" target="_blank">moghwan</a>
-            </p>
-            <p>
-              <font-awesome-icon :icon="['fab', 'twitter']" class="icon alt icon-inline"/><a href="https://twitter.com/moghwan" target="_blank">moghwan</a>
-            </p>
+            <a href="https://github.com/moghwan" target="_blank">
+              <font-awesome-icon :icon="['fab', 'github']" class="icon alt icon-inline"/>
+            </a>
+            <a href="https://stackoverflow.com/users/2543690/moghwan" target="_blank">
+              <font-awesome-icon :icon="['fab', 'stack-overflow']" class="icon alt icon-inline"/>
+            </a>
+            /&nbsp;@moghwan
           </div>
         </div>
       </div>

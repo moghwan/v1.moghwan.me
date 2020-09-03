@@ -22,23 +22,21 @@
       <span class="tag">Ionic Framework</span>
       <span class="tag">API Rest</span>
       <span class="tag">Vue</span>
-      <span class="tag">Bootstrap</span>
+      <span class="tag">Prestashop</span>
     </div>
 
     <div class="is-centered tags are-medium">
-      <span class="tag">SQLite/MySql</span>
+      <span class="tag">Bootstrap</span>
+      <span class="tag">My/Sqlite</span>
       <span class="tag">React Native</span>
       <span class="tag">Bulma</span>
       <span class="tag">SCSS/SASS</span>
       <span class="tag">WordPress</span>
       <span class="tag">Vuex</span>
       <span class="tag">TypeScript</span>
-      <span class="tag">Jquery</span>
+      <span class="tag">Symfony</span>
       <span class="tag">Docker-compose</span>
-      <span class="tag">Composer</span>
-      <span class="tag">OracleDB</span>
       <span class="tag">Cron jobs</span>
-      <span class="tag">Apache2</span>
     </div>
     <br>
     <h2 class="title is-2 has-text-weight-light has-text-centered">
