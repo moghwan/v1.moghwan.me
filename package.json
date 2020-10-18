@@ -19,7 +19,7 @@
     "http-proxy": "^1.18.1",
     "node-forge": "^0.10.0",
     "register-service-worker": "^1.7.1",
-    "vue": "^2.6.11",
+    "vue": "^2.6.12",
     "vue-page-transition": "^0.2.2",
     "vue-router": "^3.4.5",
     "yargs-parser": "^18.1.2"
