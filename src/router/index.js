@@ -3,8 +3,13 @@ import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import About from "../views/About.vue"
 import Blog from "../views/Blog.vue"
+import Post from "../views/Post.vue"
 
 Vue.use(VueRouter)
+
+const devtoUsername = 'moghwan';
+Vue.prototype.$singlePostUrl = `https://dev.to/api/articles/${devtoUsername}/`;
+Vue.prototype.$allPostsUrl   = `https://dev.to/api/articles?username=${devtoUsername}`;
 
 const routes = [
   {
@@ -21,6 +26,11 @@ const routes = [
     path: '/blog',
     name: 'Blog',
     component: Blog
+  },
+  {
+    path: '/blog/:slug',
+    name: 'Post',
+    component: Post
   },
 ]
 

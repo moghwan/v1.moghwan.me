@@ -13,7 +13,11 @@
                 <div class="card-content">
                     <div class="media">
                         <div class="media-content">
-                            <p><a class="title is-4" target="_blank" :href="post.url">{{post.title}}</a></p>
+                            <p><router-link 
+                                class="title is-4" 
+                                :to ="{ name: 'Post', params: { slug: post.slug }}">
+                                    {{post.title}}
+                                </router-link></p>
                             <time>Published {{post.readable_publish_date}}</time> ·
                             <span class="subtitle is-6">{{post.public_reactions_count}} Reactions</span> ·
                             <span class="subtitle is-6">{{post.comments_count}} Comments</span>
@@ -35,11 +39,10 @@
     export default {
         name: "Blog",
         data: () => ({
-            url: 'https://dev.to/api/articles?username=moghwan',
             posts: {},
         }),
         mounted() {
-            this.fetchPosts(this.url)
+            this.fetchPosts(this.$allPostsUrl)
         },
         methods: {
             fetchPosts(url) {
